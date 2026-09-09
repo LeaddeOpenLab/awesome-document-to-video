@@ -2,6 +2,8 @@
 
 [简体中文](README.zh-CN.md)
 
+![Awesome Document-to-Video — open workflows, real outputs, and reusable templates](assets/social-preview.png)
+
 Open workflows and reusable templates for turning PDFs, PowerPoint decks, SOPs, documentation, and scripts into multilingual training, onboarding, explainer, and product videos.
 
 Use this repository when you need a repeatable process—not another unstructured prompt dump. Every guide starts from a business input and ends with a reviewable storyboard, narration plan, localization checklist, or production workflow.

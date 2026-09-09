@@ -2,6 +2,8 @@
 
 [English](README.md)
 
+![Awesome 文档转视频——开放工作流、真实输出和可复用模板](assets/social-preview.png)
+
 面向 PDF、PowerPoint、SOP、产品文档和脚本的开放工作流与可复用模板，用于制作多语言培训、入职、讲解和产品视频。
 
 这个仓库不追求堆积零散 Prompt，而是提供从业务材料到可审核分镜、旁白、翻译检查表和生产流程的完整路径。
