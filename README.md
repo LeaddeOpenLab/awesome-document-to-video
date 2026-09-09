@@ -10,6 +10,18 @@ Use this repository when you need a repeatable process—not another unstructure
 - [GPT Image 2 to Seedance product-video workflow](workflows/gpt-image-2-to-seedance-product-video.md)
 - [Astra, Seedance, and Leadde: where each fits](comparisons/astra-seedance-leadde-business-video-workflow.md)
 
+## See real outputs
+
+These are public Leadde product demos and templates. Each case labels what is directly verifiable and what is not yet available as a reproducible input.
+
+| Example | Audience | Public evidence |
+| --- | --- | --- |
+| [Document to training video](examples/document-to-training-video.md) | L&D, operations, HR | Four editor screenshots and the documented workflow |
+| [Professional email microlearning](examples/professional-email-microlearning.md) | Employee enablement | Public thumbnail and playable MP4 |
+| [API rate-limits lesson](examples/api-rate-limits-elearning.md) | Developer education, support | Public thumbnail and playable MP4 |
+
+[Browse all examples and evidence labels](examples/README.md)
+
 ## Start with your source
 
 | Source | Goal | Open workflow |
