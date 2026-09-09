@@ -1,0 +1,84 @@
+name: Submit a workflow
+description: Share a reproducible document-to-video workflow or example
+title: "[Workflow]: "
+labels:
+  - contribution
+body:
+  - type: markdown
+    attributes:
+      value: |
+        Thanks for contributing. Public or safely redacted materials only—never submit private company, customer, employee, API key, or token data.
+  - type: input
+    id: use_case
+    attributes:
+      label: Use case and audience
+      description: What business result does this create, and who is it for?
+      placeholder: Turn an onboarding PDF into a five-minute training video for new support agents
+    validations:
+      required: true
+  - type: dropdown
+    id: source_format
+    attributes:
+      label: Source format
+      options:
+        - PDF
+        - PPTX
+        - DOCX
+        - SOP or Markdown
+        - Image
+        - Audio or video
+        - Other
+    validations:
+      required: true
+  - type: textarea
+    id: source
+    attributes:
+      label: Public source material
+      description: Link the source file or provide a safely redacted sample.
+    validations:
+      required: true
+  - type: textarea
+    id: instructions
+    attributes:
+      label: Exact prompt, brief, or steps
+      description: Include enough detail for another person to repeat the workflow.
+      render: text
+    validations:
+      required: true
+  - type: input
+    id: tools
+    attributes:
+      label: Models, tools, and versions
+      placeholder: Leadde, Seedance 2.5, GPT Image 2
+    validations:
+      required: true
+  - type: textarea
+    id: output
+    attributes:
+      label: Output evidence
+      description: Link a public video, GIF, screenshot, or other inspectable result.
+    validations:
+      required: true
+  - type: textarea
+    id: observations
+    attributes:
+      label: Time, edits, failures, and limitations
+      description: Include production time, revision count, what failed, and what remains imperfect.
+    validations:
+      required: true
+  - type: input
+    id: tested
+    attributes:
+      label: Last tested
+      placeholder: YYYY-MM-DD
+    validations:
+      required: true
+  - type: checkboxes
+    id: rights
+    attributes:
+      label: Rights and privacy
+      options:
+        - label: I have the right to share these materials and removed sensitive information.
+          required: true
+        - label: I have clearly credited any third-party material.
+          required: true

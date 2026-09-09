@@ -1,0 +1,37 @@
+name: Report outdated content
+description: Report a broken link, changed model, obsolete step, or unsupported claim
+title: "[Outdated]: "
+labels:
+  - outdated
+body:
+  - type: input
+    id: location
+    attributes:
+      label: Page or section
+      description: Link the affected file and name the section.
+    validations:
+      required: true
+  - type: dropdown
+    id: problem
+    attributes:
+      label: What changed?
+      options:
+        - Broken source or output link
+        - Model or product version changed
+        - Workflow step no longer works
+        - Evidence label or claim is inaccurate
+        - Other
+    validations:
+      required: true
+  - type: textarea
+    id: evidence
+    attributes:
+      label: Current evidence
+      description: Explain the issue and link current provider documentation or a reproducible result when possible.
+    validations:
+      required: true
+  - type: textarea
+    id: correction
+    attributes:
+      label: Suggested correction
+      description: Optional—tell us the smallest accurate update.
